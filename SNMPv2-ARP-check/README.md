@@ -22,13 +22,13 @@ Also it gets:
 3. Run this*: 
 
 
-'''console
+```console
 
 echo '#!/bin/bash
 python3 /usr/lib/zabbix/externalscripts/snmpv2-arp.py $1 $2
 ' > /usr/lib/zabbix/externalscripts/snmpv2-arp-bash.sh
 
-'''
+```
 
 * there is an issue to run python3 file (slowdown server, I do not know why)
 
